@@ -1,0 +1,40 @@
+<ion-header no-border>
+
+  <div class="login-header ion-padding"> 
+    <img class="logo-img" src="https://viveduoc.cl/wp-content/uploads/2020/10/Recurso-11-1.png">
+  </div>
+  
+</ion-header>
+
+<ion-content>
+
+  <div class="center">
+
+    <div heading-column-lr>
+    <h1 big-heading>Restablecer Contraseña</h1>
+
+    </div>
+    <ion-label>
+      Ingrese su nombre de usuario y la nueva contraseña.
+    </ion-label>
+
+    <ion-item transparent>
+      <img icon-small src="https://cdn-icons-png.flaticon.com/128/2321/2321232.png" width="30"/>
+      <ion-input placeholder="Usuario" type="text"></ion-input>
+    </ion-item>
+    <ion-item transparent>
+      <img icon-small src="https://icons.veryicon.com/png/o/miscellaneous/dh_report/login-page-password.png" width="30" />
+      <ion-input  placeholder="Nueva Contraseña" type="text"></ion-input>
+    </ion-item>
+    <ion-item transparent>
+      <img icon-small src="https://icons.veryicon.com/png/o/miscellaneous/dh_report/login-page-password.png" width="30" />
+      <ion-input  placeholder="Confirmar Nueva Contraseña" type="text"></ion-input>
+    </ion-item>
+
+    <div linespace></div>
+    <ion-button color="warning" class="ion-button-class" shape="round"
+    fill="solid" size="large" expand="block" (click)="login()">RECUPERAR</ion-button>
+    
+
+  </div>
+</ion-content>
